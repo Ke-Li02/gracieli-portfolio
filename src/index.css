@@ -69,6 +69,8 @@
   transform: translate(-50%, 0);
   font-family: 'Aurora';
   font-size: 7.5vw;
+  color: #C7DFF3;
+  text-decoration: none;
 }
 
 #about-me {
@@ -81,14 +83,22 @@
   grid-template-columns: auto auto auto;
 }
 
-.first-column {
+.home-first-column {
   width: 46.4%;
 }
 
-.second-column {
+.home-second-column {
   width: 20.6%;
 }
 
-.third-column {
+.home-third-column {
   width: 33%;
+}
+
+.bg-first-column {
+  width: 68%;
+}
+
+.bg-second-column {
+  width: 32%;
 }

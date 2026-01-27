@@ -8,11 +8,11 @@ function Banner() {
   return (
     <div id='banner'>
       <img src={banner_pic} className='w-100'></img>
-      <span id='name'>Ruoxi Li</span>
+      <a id='name' href='.'>Ruoxi Li</a>
       <nav id='nav-bar' className='d-flex flex-column justify-content-center'>
-        <a className='nav-link text-center py-3 py-sm-4 py-md-5' href='./background'>Background</a>
-        <a className='nav-link text-center py-3 py-sm-4 py-md-5' href='./animation'>Animation</a>
-        <a className='nav-link text-center py-3 py-sm-4 py-md-5' href='./illustration'>Illustration</a>
+        <a className='nav-link text-center py-3 py-sm-4 py-md-5' href='./#background'>Background</a>
+        <a className='nav-link text-center py-3 py-sm-4 py-md-5' href='./#animation'>Animation</a>
+        <a className='nav-link text-center py-3 py-sm-4 py-md-5' href='./#illustration'>Illustration</a>
       </nav>
       <div id='icon-bar' className='d-flex m-3'>
         <a href='mailto:gli@live.ca'>
