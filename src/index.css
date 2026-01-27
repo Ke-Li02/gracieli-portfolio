@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Aurora';
-  src: url('assets/Aurora-Font.otf');
+  src: url('assets/aurora.otf');
 }
 
 @font-face {
   font-family: 'Gill Sans';
-  src: url('assets/Gill\ Sans-Font.otf');
+  src: url('assets/gill_sans.otf');
 }
 
 #main-content {
@@ -29,6 +29,25 @@
 #icon-bar a {
   color: #C7DFF3;
   text-decoration: none;
+}
+
+.icon {
+  width: 19.2px;
+  height: 19.2px;
+}
+
+@media (min-width: 576px) {
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 #nav-bar {
