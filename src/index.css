@@ -14,6 +14,7 @@
 }
 
 #banner {
+  position: relative;
   color: #C7DFF3;
 }
 
@@ -23,6 +24,23 @@
   right: 0;
   top: 0;
   font-size: smaller;
+}
+
+#icon-bar a {
+  color: #C7DFF3;
+  text-decoration: none;
+}
+
+#nav-bar {
+  position: absolute;
+  left: 70%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.nav-link {
+  font-size: 3.25vw;
 }
 
 #name {
@@ -37,4 +55,21 @@
 #about-me {
   font-weight: 600;
   color: #1831B8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.first-column {
+  width: 46.4%;
+}
+
+.second-column {
+  width: 20.6%;
+}
+
+.third-column {
+  width: 33%;
 }
