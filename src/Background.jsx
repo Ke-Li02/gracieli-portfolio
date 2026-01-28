@@ -15,8 +15,6 @@ import lo_pic_3 from './assets/image18.webp'
 import lo_pic_4 from './assets/image19.webp'
 import lo_pic_5 from './assets/image20.webp'
 
-import NavigationBar from './NavigationBar'
-
 function Background() {
   const ref = useRef(null);
 
@@ -26,7 +24,6 @@ function Background() {
 
   return (
     <>
-      {/* <NavigationBar /> */}
       <h1 ref={ref} className='text-center text-decoration-underline py-2 py-sm-3 py-md-4 m-2 m-sm-3 m-md-4'>
         Background
       </h1>
