@@ -31,7 +31,7 @@
   text-decoration: none;
 }
 
-.icon {
+.banner-icon, .footer-icon {
   width: 19.2px;
   height: 19.2px;
 }
@@ -43,7 +43,7 @@
 }
 
 @media (min-width: 576px) {
-  .icon {
+  .banner-icon, .footer-icon {
     width: 24px;
     height: 24px;
   }
@@ -133,11 +133,6 @@
   color: #1831B8;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-
 .home-first-column {
   width: 46.4%;
 }
@@ -156,4 +151,13 @@
 
 .bg-second-column {
   width: 32%;
+}
+
+#back-to-top {
+  color: rgba(4, 14, 26, 0.25);
+  width: fit-content;
+}
+
+#back-to-top:hover {
+  cursor: pointer;
 }
