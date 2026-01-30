@@ -90,7 +90,7 @@
   position: sticky;
   top: 0;
   background-color: white;
-  border-bottom: 1px solid #040E1A;
+  border-bottom: 1px solid rgba(4, 14, 26, 0.5);
 }
 
 #navbar-name {

@@ -14,7 +14,7 @@ function Banner() {
   return (
     <>
       <div id='banner' ref={ref}>
-        <img src={banner_pic} className='w-100'></img>
+        <img src={banner_pic} width='2388' height='1471' className='w-100 h-auto'></img>
         <a id='banner-name' href='/#home'>Ruoxi Li</a>
         <nav id='banner-navbar' className='d-flex flex-column justify-content-center'>
           <a className={`banner-nav-link text-center py-3 py-sm-4 py-md-5 ${location.hash === '#background' ? 'selected-banner-nav-link' : ''}`} href='/#background'>Background</a>
@@ -23,19 +23,19 @@ function Banner() {
         </nav>
         <div id='icon-bar' className='d-flex m-3'>
           <a href='mailto:gli@live.ca'>
-            <img className='icon mx-2' src={mail_icon} alt="mail"></img>
+            <img className='icon mx-2' src={mail_icon} width='99' height='99' alt="mail"></img>
             <span className='icon-description'>gli@live.ca</span>
           </a>
           <a href='' target='_blank'>
-            <img className='icon mx-2' src={resume_icon} alt="resume"></img>
+            <img className='icon mx-2' src={resume_icon} width='99' height='99' alt="resume"></img>
             <span className='icon-description'>resume</span>
           </a>
           <span className='flex-grow-1'></span>
           <a href='https://www.instagram.com/m1dnightingale/' target='_blank'>
-            <img className='icon mx-2' src={instagram_icon} alt="instagram"></img>
+            <img className='icon mx-2' src={instagram_icon} width='50' height='50' alt="instagram"></img>
           </a>
           <a href='https://www.linkedin.com/in/ruoxi-li-604b5a304/' target='_blank'>
-            <img className='icon mx-2' src={linkedin_icon} alt="linkedin"></img>
+            <img className='icon mx-2' src={linkedin_icon} width='50' height='50' alt="linkedin"></img>
           </a>
         </div>
       </div>

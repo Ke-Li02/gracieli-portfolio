@@ -31,33 +31,33 @@ function Background() {
       <div className='d-flex mx-2 mx-sm-3 mx-md-4'>
         <div className='bg-first-column d-flex flex-column'>
           <a>
-            <img src={bg_pic_1} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_1} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
           </a>
           <a>
-            <img src={bg_pic_4} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_4} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
           </a>
           <a>
-            <img src={bg_pic_7} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_7} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
           </a>
         </div>
         <div className='bg-second-column d-flex flex-column'>
           <a>
-            <img src={bg_pic_2} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_2} width='2100' height='1430' className='w-100 h-auto p-1 p-md-2'/>
           </a>
             <a>
-            <img src={bg_pic_3} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_3} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
           </a>
           <a>
-            <img src={bg_pic_5} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_5} width='2100' height='1324' className='w-100 h-auto p-1 p-md-2'/>
           </a>
             <a>
-            <img src={bg_pic_6} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_6} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
           </a>
           <a>
-            <img src={bg_pic_8} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_8} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
           </a>
           <a>
-            <img src={bg_pic_9} className='w-100 p-1 p-md-2'/>
+            <img src={bg_pic_9} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
           </a>
         </div>
       </div>
@@ -69,21 +69,21 @@ function Background() {
       <div className='d-flex mx-2 mx-sm-3 mx-md-4'>
         <div className='d-flex flex-column'>
           <a>
-            <img src={lo_pic_1} className='w-100 p-1 p-md-2'/>
+            <img src={lo_pic_1} width='4800' height='2700' className='w-100 h-auto p-1 p-md-2'/>
           </a>
           <a>
-            <img src={lo_pic_3} className='w-100 p-1 p-md-2'/>
+            <img src={lo_pic_3} width='5600' height='3150' className='w-100 h-auto p-1 p-md-2'/>
           </a>
           <a>
-            <img src={lo_pic_5} className='w-100 p-1 p-md-2'/>
+            <img src={lo_pic_5} width='5600' height='3150' className='w-100 h-auto p-1 p-md-2'/>
           </a>
         </div>
         <div className='d-flex flex-column'>
           <a>
-            <img src={lo_pic_2} className='w-100 p-1 p-md-2'/>
+            <img src={lo_pic_2} width='4800' height='2700' className='w-100 h-auto p-1 p-md-2'/>
           </a>
           <a>
-            <img src={lo_pic_4} className='w-100 p-1 p-md-2'/>
+            <img src={lo_pic_4} width='5600' height='3150' className='w-100 h-auto p-1 p-md-2'/>
           </a>
         </div>
       </div>
