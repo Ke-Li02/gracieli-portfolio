@@ -8,6 +8,11 @@
   src: url('assets/gill_sans.otf');
 }
 
+@font-face {
+  font-family: 'Monday Feelings';
+  src: url('assets/monday-feelings.ttf');
+}
+
 #main-content {
   font-family: 'Gill Sans';
   color: #040E1A;
@@ -96,16 +101,19 @@
 #navbar-name {
   font-family: 'Aurora';
   font-size: 20px;
+  color: rgb(4, 14, 26);
+  text-decoration: none;
 }
 
 .nav-link {
   font-size: 16px;
   align-content: center;
-  color: rgba(4, 14, 26, 0.5)
+  color: rgba(4, 14, 26, 0.5);
+  text-decoration: none;
 }
 
 .selected-nav-link {
-  color: rgb(4, 14, 26)
+  color: rgb(4, 14, 26);
 }
 
 @media (min-width: 576px) {
@@ -129,8 +137,9 @@
 }
 
 #about-me {
-  font-weight: 600;
-  color: #1831B8;
+  font-family: 'Monday Feelings';
+  color: rgb(4, 14, 26);
+  text-align: center;
 }
 
 .home-first-column {
