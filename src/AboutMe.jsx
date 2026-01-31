@@ -8,7 +8,7 @@ function AboutMe() {
           She is passionate about telling stories and working with fellow creatives.
         </span>
       </div>
-      <img src=''/>
+      <img src={null}/>
     </div>
   )
 }

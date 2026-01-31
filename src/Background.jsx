@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react'
+import { useRef, useState, useEffect } from 'react'
 
 import bg_pic_1 from './assets/image5.webp'
 import bg_pic_2 from './assets/image8.webp'
@@ -14,9 +14,13 @@ import lo_pic_2 from './assets/image17.webp'
 import lo_pic_3 from './assets/image18.webp'
 import lo_pic_4 from './assets/image19.webp'
 import lo_pic_5 from './assets/image20.webp'
+import lo_pic_6 from './assets/image21.webp'
+
+import Popup from './Popup'
 
 function Background() {
   const ref = useRef(null);
+  const [image, setImage] = useState(null)
 
   useEffect(() => {
     ref.current?.scrollIntoView({behavior: 'smooth'})
@@ -30,35 +34,35 @@ function Background() {
 
       <div className='d-flex mx-2 mx-sm-3 mx-md-4'>
         <div className='bg-first-column d-flex flex-column'>
-          <a>
+          <div role='button' onClick={() => setImage(bg_pic_1)}>
             <img src={bg_pic_1} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-          <a>
+          </div>
+          <div role='button' onClick={() => setImage(bg_pic_4)}>
             <img src={bg_pic_4} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-          <a>
+          </div>
+          <div role='button' onClick={() => setImage(bg_pic_7)}>
             <img src={bg_pic_7} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
+          </div>
         </div>
         <div className='bg-second-column d-flex flex-column'>
-          <a>
+          <div role='button' onClick={() => setImage(bg_pic_2)}>
             <img src={bg_pic_2} width='2100' height='1430' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-            <a>
+          </div>
+          <div role='button' onClick={() => setImage(bg_pic_3)}>
             <img src={bg_pic_3} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-          <a>
+          </div>
+          <div role='button' onClick={() => setImage(bg_pic_5)}>
             <img src={bg_pic_5} width='2100' height='1324' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-            <a>
+          </div>
+          <div role='button' onClick={() => setImage(bg_pic_6)}>
             <img src={bg_pic_6} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-          <a>
+          </div>
+          <div role='button' onClick={() => setImage(bg_pic_8)}>
             <img src={bg_pic_8} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-          <a>
+          </div>
+          <div role='button' onClick={() => setImage(bg_pic_9)}>
             <img src={bg_pic_9} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
+          </div>
         </div>
       </div>
 
@@ -68,25 +72,29 @@ function Background() {
 
       <div className='d-flex mx-2 mx-sm-3 mx-md-4'>
         <div className='d-flex flex-column'>
-          <a>
+          <div role='button' onClick={() => setImage(lo_pic_1)}>
             <img src={lo_pic_1} width='4800' height='2700' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-          <a>
+          </div>
+          <div role='button' onClick={() => setImage(lo_pic_3)}>
             <img src={lo_pic_3} width='5600' height='3150' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-          <a>
+          </div>
+          <div role='button' onClick={() => setImage(lo_pic_5)}>
             <img src={lo_pic_5} width='5600' height='3150' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
+          </div>
         </div>
         <div className='d-flex flex-column'>
-          <a>
+          <div role='button' onClick={() => setImage(lo_pic_2)}>
             <img src={lo_pic_2} width='4800' height='2700' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
-          <a>
+          </div>
+          <div role='button' onClick={() => setImage(lo_pic_4)}>
             <img src={lo_pic_4} width='5600' height='3150' className='w-100 h-auto p-1 p-md-2'/>
-          </a>
+          </div>
+          <div role='button' onClick={() => setImage(lo_pic_6)}>
+            <img src={lo_pic_6} width='5600' height='3150' className='w-100 h-auto p-1 p-md-2'/>
+          </div>
         </div>
       </div>
+      {image != null && <Popup image={image} setImage={setImage} />}
     </>
   )
 }

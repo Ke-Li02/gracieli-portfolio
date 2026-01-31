@@ -134,15 +134,15 @@
 }
 
 .home-first-column {
-  width: 46.4%;
+  width: 46.75%;
 }
 
 .home-second-column {
-  width: 20.6%;
+  width: 22.1%;
 }
 
 .home-third-column {
-  width: 33%;
+  width: 31.15%;
 }
 
 .bg-first-column {
@@ -158,6 +158,22 @@
   width: fit-content;
 }
 
-#back-to-top:hover {
-  cursor: pointer;
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+#popup-img {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+#popup-close-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
 }
