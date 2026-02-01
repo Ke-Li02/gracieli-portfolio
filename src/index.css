@@ -9,13 +9,17 @@
 }
 
 @font-face {
-  font-family: 'Monday Feelings';
-  src: url('assets/monday-feelings.ttf');
+  font-family: 'Eina01';
+  src: url('assets/eina01.otf');
 }
 
 #main-content {
   font-family: 'Gill Sans';
-  color: #040E1A;
+  color: #27344D;
+}
+
+.border-bottom-thin {
+  border-bottom: 1px solid rgba(4, 14, 26, 0.5);
 }
 
 #banner {
@@ -92,8 +96,10 @@
 }
 
 #navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   background-color: white;
   border-bottom: 1px solid rgba(4, 14, 26, 0.5);
 }
@@ -136,10 +142,13 @@
   }
 }
 
-#about-me {
-  font-family: 'Monday Feelings';
-  color: rgb(4, 14, 26);
-  text-align: center;
+#about-me-title {
+  font-family: 'Eina01';
+}
+
+#hi-there {
+  width: 30%;
+  height: fit-content;
 }
 
 .home-first-column {

@@ -17,7 +17,7 @@ function NavigationBar({ ref }) {
   }, [])
 
   return (
-    <div id='navbar' className={`d-flex p-1 p-sm-2 ${show ? 'visible' : 'invisible'}`}>
+    <div id='navbar' className={`${show ? 'd-flex' : 'd-none'} p-1 p-sm-2`}>
       <a id='navbar-name' className='mx-2 mx-sm-3 mx-md-4' href='/#home'>Ruoxi Li</a>
       <span className='flex-grow-1'></span>
       <a className={`nav-link mx-2 mx-md-3 ${location.hash === '#background' ? 'selected-nav-link' : ''}`} href='/#background'>Background</a>
