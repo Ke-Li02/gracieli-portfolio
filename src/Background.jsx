@@ -8,7 +8,7 @@ import bg_pic_5 from './assets/image11.webp'
 import bg_pic_6 from './assets/image12.webp'
 import bg_pic_7 from './assets/image13.webp'
 import bg_pic_8 from './assets/image14.webp'
-import bg_pic_9 from './assets/image15.webp'
+import bg_pic_9 from './assets/image7.webp'
 import lo_pic_1 from './assets/image16.webp'
 import lo_pic_2 from './assets/image17.webp'
 import lo_pic_3 from './assets/image18.webp'
@@ -28,8 +28,8 @@ function Background() {
 
   return (
     <>
-      <h1 ref={ref} className='text-center text-decoration-underline py-2 py-sm-3 py-md-4 m-2 m-sm-3 m-md-4'>
-        Background
+      <h1 ref={ref} className='title text-center border-bottom-thin px-1 px-md-2 mx-2 mx-sm-3 mx-md-4 pb-2 mb-3 mt-5'>
+        BACKGROUND
       </h1>
 
       <div className='d-flex mx-2 mx-sm-3 mx-md-4'>
@@ -61,13 +61,13 @@ function Background() {
             <img src={bg_pic_8} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
           </div>
           <div role='button' onClick={() => setImage(bg_pic_9)}>
-            <img src={bg_pic_9} width='2100' height='1200' className='w-100 h-auto p-1 p-md-2'/>
+            <img src={bg_pic_9} width='5760' height='3240' className='w-100 h-auto p-1 p-md-2'/>
           </div>
         </div>
       </div>
 
-      <h1 className='text-center text-decoration-underline py-2 py-sm-3 py-md-4 m-2 m-sm-3 m-md-4'>
-        Layout
+      <h1 className='title text-center border-bottom-thin px-1 px-md-2 mx-2 mx-sm-3 mx-md-4 pb-2 mb-3 mt-5'>
+        LAYOUT
       </h1>
 
       <div className='d-flex mx-2 mx-sm-3 mx-md-4'>

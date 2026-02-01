@@ -151,6 +151,10 @@
   height: fit-content;
 }
 
+.title {
+  font-family: 'Eina01';
+}
+
 .home-first-column {
   width: 46.75%;
 }
@@ -169,6 +173,14 @@
 
 .bg-second-column {
   width: 32%;
+}
+
+.il-first-column {
+  width: 52.65%;
+}
+
+.il-second-column {
+  width: 47.35%;
 }
 
 #back-to-top {
