@@ -16,7 +16,7 @@ function Animation() {
       </h1>
 
       <div className='mx-2 mx-sm-3 mx-md-4'>
-        <video className='w-100 h-auto' width='1920' height='1080' controls>
+        <video className='w-100 h-auto' width='1920' height='1080' preload='metadata' controls playsInline>
             <source src={video} />
         </video>
       </div>

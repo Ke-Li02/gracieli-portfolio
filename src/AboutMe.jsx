@@ -6,7 +6,7 @@ function AboutMe() {
       <div className='align-self-center me-2'>
         <h1 id='about-me-title'>ABOUT ME</h1>
         <span>
-          I'm Ruoxi, an animation student at Sheridan College. 
+          I'm Ruoxi/Gracie, an animation student at Sheridan College. 
           I love telling stories and working with fellow creatives. 
           For me, making art is like trying to bottle up the magic of everyday life and turn it into something tangible. 
           Still, nothing beats living in the moment!
