@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react'
 
 import video from './assets/demo_reel.mp4'
+import cover from './assets/demo_reel_cover.webp'
 
 function Animation() {
   const ref = useRef(null);
@@ -16,7 +17,7 @@ function Animation() {
       </h1>
 
       <div className='mx-2 mx-sm-3 mx-md-4'>
-        <video className='w-100 h-auto' width='1920' height='1080' preload='metadata' controls playsInline>
+        <video poster={cover} className='w-100 h-auto' width='1920' height='1080' preload='metadata' controls playsInline>
             <source src={video} />
         </video>
       </div>
